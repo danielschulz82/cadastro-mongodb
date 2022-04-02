@@ -1,7 +1,10 @@
 package com.desafio.cadastromongodb.model;
 
+import org.springframework.data.annotation.Id;
+
 public class Usuario {
 
+    @Id
     private String id;
 
     private String nome;
